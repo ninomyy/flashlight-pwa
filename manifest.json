@@ -1,0 +1,105 @@
+{
+  "name": "懐中電灯",
+  "short_name": "懐中電灯",
+  "description": "可愛い猫耳付き懐中電灯アプリ - ストロボ、SOS、モールス信号機能付き",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#FF69B4",
+  "orientation": "portrait",
+  "scope": "./",
+  "lang": "ja",
+  "dir": "ltr",
+  "categories": ["utilities", "tools"],
+  "icons": [
+    {
+      "src": "./icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ライトオン",
+      "short_name": "オン",
+      "description": "懐中電灯をすぐにオン",
+      "url": "./index.html?action=light-on",
+      "icons": [
+        {
+          "src": "./icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "ストロボ",
+      "short_name": "ストロボ",
+      "description": "ストロボモードを開始",
+      "url": "./index.html?action=strobe",
+      "icons": [
+        {
+          "src": "./icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "SOS",
+      "short_name": "SOS",
+      "description": "SOS信号を開始",
+      "url": "./index.html?action=sos",
+      "icons": [
+        {
+          "src": "./icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
